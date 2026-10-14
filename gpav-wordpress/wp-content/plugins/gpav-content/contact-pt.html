@@ -1,0 +1,44 @@
+<form class="contact-form" action="https://formspree.io/f/mqeeekln" method="POST">
+  <div class="form-grid">
+    <div class="field">
+      <label for="first_name">Nome <span aria-hidden="true">*</span></label>
+      <input id="first_name" name="first_name" type="text" autocomplete="given-name" required="" />
+    </div>
+
+    <div class="field">
+      <label for="last_name">Sobrenome <span aria-hidden="true">*</span></label>
+      <input id="last_name" name="last_name" type="text" autocomplete="family-name" required="" />
+    </div>
+
+    <div class="field">
+      <label for="institution">Instituição <span aria-hidden="true">*</span></label>
+      <input id="institution" name="institution" type="text" autocomplete="organization" required="" />
+    </div>
+
+    <div class="field">
+      <label for="email">E-mail <span aria-hidden="true">*</span></label>
+      <input id="email" name="email" type="email" autocomplete="email" required="" />
+    </div>
+
+    <div class="field field-full">
+      <label for="message">Mensagem <span aria-hidden="true">*</span></label>
+      <textarea id="message" name="message" rows="7" required=""></textarea>
+    </div>
+
+    <div class="field field-full">
+      <label class="checkbox">
+        <input type="checkbox" name="privacy_ack" value="yes" required="" />
+        Li e concordo com a <a href="https://gpav.icb.ufmg.br/pt/privacy/" target="_blank" rel="noopener">Política de Privacidade</a>.
+        <span aria-hidden="true">*</span>
+      </label>
+    </div>
+
+    <!-- Helps Formspree build a good email subject -->
+    <input type="hidden" name="_subject" value="Contato via site GPAV UFMG" />
+    <input type="hidden" name="language" value="pt" />
+
+    <div class="field field-full">
+      <button class="btn" type="submit">Enviar</button>
+    </div>
+  </div>
+</form>

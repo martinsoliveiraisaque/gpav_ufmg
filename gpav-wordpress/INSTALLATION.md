@@ -1,0 +1,85 @@
+# Installation — for the hosting administrator
+
+## Recommended environment
+
+Use a currently supported WordPress release, PHP 8.3 or newer, MySQL 8.0+ (or a WordPress-supported MariaDB version), HTTPS, and working WordPress permalinks. The custom code requires PHP 8.1+ and WordPress 6.6+. Enable the normal WordPress PHP extensions, including mysqli, XML and image processing. No Ruby, Jekyll, Node.js build, Decap CMS, GitHub OAuth or paid plugin is needed.
+
+**SQL route:** use WordPress 7.1.3, the version used to generate this export, or a compatible newer version. If the host uses another WordPress version, use Route B to create content through that installation’s own APIs.
+
+The package is prepared for a **fresh, dedicated WordPress installation**, at the root of `https://gpav.icb.ufmg.br/`. Do not import this SQL over an existing site with content you need to retain: it replaces the site tables except the user tables.
+
+## Route A — SQL import (recommended)
+
+1. Create a new empty MySQL database and database user. Install the official WordPress distribution at the domain root. Configure `wp-config.php` with the host's database credentials, fresh authentication salts and `$table_prefix = 'wp_';`.
+2. Complete the ordinary WordPress installation and create the administrator account using the standard WordPress setup screen. **Do this before importing SQL.** No account or password is supplied in this package.
+3. Copy the package's `wp-content/themes/gpav`, `wp-content/plugins/gpav-content`, and `wp-content/uploads/gpav` directories to the corresponding directories in the installation. Preserve existing WordPress files. The originals and generated attachment thumbnails are included.
+4. Back up the fresh database if desired, then import `database/gpav.sql` using phpMyAdmin or your host's database import facility. With a shell, use `mysql -u DATABASE_USER -p DATABASE_NAME < /absolute/path/to/database/gpav.sql`. Enter the password at the prompt; do not put it in the command.
+5. The SQL export activates the GPAV theme and companion plugin. It preserves the `wp_users` and `wp_usermeta` tables created in step 2, and retains the fresh installation's administrator email. Log in at `https://gpav.icb.ufmg.br/wp-admin/` using the host-created account.
+6. Open **Settings → Permalinks** and click **Save Changes**. The selected structure is `/%postname%/`. This step regenerates routes for `/pt/`, `/en/` and news articles and, where permitted, updates Apache rewrite configuration.
+7. Confirm **Settings → General** uses the supplied HTTPS domain for both WordPress and Site Address, the correct administrator email and the `America/Sao_Paulo` timezone. Imported content has no assigned author. This does not prevent administrator editing. If desired, assign ownership using the WP-CLI command below.
+8. Confirm **Appearance → Themes → GPAV UFMG** is active and **Plugins → GPAV Content** is active. Standard WordPress administration is the only editing interface.
+9. Set the site language to Português do Brasil and allow WordPress to download its normal language pack if it is not already installed. The public pages have explicit Portuguese/English language attributes regardless of the administration language.
+10. Complete the live checks at the end of this document.
+
+The dump is UTF-8 (`utf8mb4`) and uses standard `wp_` tables. It deliberately contains no database creation statement, MySQL database user, server credentials, authentication salts or WordPress account. It is not intended for a non-`wp_` table prefix or a WordPress Multisite instance.
+
+To assign imported content to a host-created administrator with WP-CLI:
+
+```bash
+wp eval '$owner = get_user_by("login", "YOUR_ADMIN_USERNAME"); if (!$owner) { WP_CLI::error("User not found"); } global $wpdb; $wpdb->update($wpdb->posts, ["post_author" => $owner->ID], ["post_author" => 0], ["%d"], ["%d"]);'
+```
+
+## Route B — content import into a fresh WordPress database
+
+Use this route instead of Route A if the host prefers a WordPress-aware import. Complete steps 1–3 above, then run from the WordPress installation directory:
+
+```bash
+wp plugin activate gpav-content
+wp theme activate gpav
+wp eval-file /absolute/path/to/gpav-wordpress/migration/import.php
+wp rewrite flush
+```
+
+Keep `content.json` next to `import.php`. The script uses the site's configured address when inserting content and uploads. It creates the 20 pages, six news articles, nine team records and image attachment records. It updates existing imported records using their source keys if intentionally run again; a repeat import overwrites edits to those imported fields. It does not delete unrelated existing content, so use a fresh installation and remove default sample posts/pages yourself. Route B retains the existing administrator and requires no SQL import.
+
+WP-CLI may require `--allow-root` when run as root; prefer the host's normal deployment user.
+
+## Apache
+
+Use the standard WordPress `.htaccess` rewrite rules generated by saving permalinks. Ensure `mod_rewrite` is enabled and the host permits the required overrides. Do not carry over the old `/gpav_ufmg` prefix.
+
+## Nginx
+
+The host needs the normal WordPress front controller, for example inside the site's server block:
+
+```nginx
+location / {
+    try_files $uri $uri/ /index.php?$args;
+}
+```
+
+Configure PHP-FPM and HTTPS using the host's standard settings. This fragment alone is not a complete server configuration.
+
+## Staging at another address
+
+After SQL import, replace the domain using WP-CLI's serialization-aware command:
+
+```bash
+wp search-replace 'https://gpav.icb.ufmg.br' 'https://YOUR-STAGING-DOMAIN' --all-tables-with-prefix --skip-columns=guid
+wp rewrite flush
+```
+
+Replace it back using the same approach when moving to production. Avoid a raw text replacement in SQL because WordPress stores serialized data. Route B automatically imports content using the site's currently configured address.
+
+## Live checks
+
+- `/` redirects to `/pt/`; both language homepages and all navigation links load.
+- Language switching works on normal pages and each translated news article.
+- News covers, team photos, banners and footer logos load.
+- A news edit appears in the news index and homepage; a team edit appears in the correct language.
+- PubMed loads the three recent publications and the full publications list; pagination uses `?pubpage=2`.
+- Confirm the existing Formspree form belongs to the intended account, permits the new domain, and delivers a controlled test message. This package retains its existing endpoint and does not change the recipient.
+- Search, collaborators and Instagram are placeholders ready for later editing.
+- Mobile layout and keyboard navigation work; the banner pauses on click or Enter/Space.
+
+Browser-side calls to NCBI and Google Fonts require those services to be reachable from visitors' browsers. The contact form submits to Formspree. No contact submissions are stored in this site's MySQL database.

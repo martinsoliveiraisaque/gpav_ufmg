@@ -1,0 +1,24 @@
+/* Only additions needed for WordPress; original design lives in styles.css. */
+.nav .menu-item-has-children { position: relative; }
+.nav .sub-menu { display:none; position:absolute; z-index:20; min-width:200px; padding:10px; list-style:none; background:white; box-shadow:0 5px 15px #0002; }
+.nav .menu-item-has-children:hover > .sub-menu,
+.nav .menu-item-has-children:focus-within > .sub-menu { display:block; }
+.nav .sub-menu a { display:block; }
+.has-dropdown:focus-within > .dropdown,
+.has-submenu:focus-within > .submenu { display:block; }
+.news-cover { height:auto; }
+.gpav-pagination { margin:24px 0; display:flex; flex-wrap:wrap; gap:12px; }
+.news-attachments { margin-top:24px; }
+.wp-caption { max-width:100%; }
+@media (max-width: 650px) {
+  .site-nav ul.nav { flex-wrap: wrap; justify-content: center; gap: .5rem .75rem; }
+  .site-nav .nav a { font-size: 1rem; }
+  .header-top { padding: .5rem; gap: .75rem; }
+  .header-top .brand { gap: .75rem; width: 100%; }
+  .header-top .logo { width: 72px; flex: 0 0 72px; }
+  .site-header .brand-title { font-size: 1.35rem; overflow-wrap: anywhere; }
+  .site-header .brand-subtitle { font-size: .9rem; }
+  .header-utils { justify-content: flex-end; width: 100%; }
+  .news-card-title, .pub-card-title, .pub-title { overflow-wrap: anywhere; }
+  .pub-meta, .pub-card-doi { overflow-wrap: anywhere; }
+}
