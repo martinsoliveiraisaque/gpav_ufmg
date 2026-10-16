@@ -25,6 +25,16 @@ Validated on 14 October 2026 using WordPress **7.1.3**, PHP **8.3.6** and MariaD
 - SQL imported successfully into a separate fresh test database. All migrated content counts were restored, and the preexisting administrator account and administrator email were preserved.
 - Final SQL has no user-table DDL/data, local testing URLs, embedded passwords or testing administrator credentials.
 
+## Partnerships page (added later)
+
+Tested on a local WordPress (development build) running on SQLite, with the content imported through Route B:
+
+- The page `/pt/parcerias/` was created once by the plugin, as a child of the Portuguese home page; repeated visits did not create duplicates.
+- The shortcode, the stylesheet and the script load only on that page; the other pages do not load them.
+- Fato ou Fake, animated counters, events filter and enlarged photo, plan selection, partnership total, and the Gmail, default-mail and WhatsApp links work. All page images load. No JavaScript errors.
+- The "Parcerias" item appears in the Portuguese and English default menus. No horizontal scrolling at desktop and phone widths.
+- Not verified: MySQL (SQLite was used for the test), live Google Fonts, and delivery of any message.
+
 ## Host-side checks still required
 
 - Configure the actual domain, TLS, database credentials and web-server permalinks.

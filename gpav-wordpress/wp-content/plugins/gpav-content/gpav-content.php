@@ -7,6 +7,7 @@
  * Requires PHP: 8.1
  */
 defined('ABSPATH') || exit;
+require_once __DIR__ . '/gpav-parcerias.php';   // página Parcerias (shortcode e criação automática)
 function gpav_content_lang() {
     $lang = get_post_meta(get_queried_object_id(), '_gpav_lang', true);
     return $lang === 'en' || get_query_var('gpav_lang') === 'en' ? 'en' : 'pt';
