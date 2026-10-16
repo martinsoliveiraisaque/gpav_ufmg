@@ -18,6 +18,7 @@ Shortcodes:
 | `[gpav_recent_publications]` | Three recent PubMed publications |
 | `[gpav_publications]` | PubMed list with pagination |
 | `[gpav_contact_form]` | Original bilingual Formspree contact form |
+| `[gpav_parcerias]` | The Partnerships page (see "Partnerships page" below) |
 
 Use each PubMed shortcode at most once per page, because the original scripts target a single container ID. Imported pages already meet this condition.
 
@@ -50,3 +51,21 @@ The contact form keeps all original fields, required validation, privacy acknowl
 - **Instagram:** replace the placeholder text with the desired embed/content. The profile link is already present. Whether an external embed works depends on that provider and WordPress's HTML permissions.
 
 There is no Decap CMS admin directory, OAuth service or GitHub login in the converted package. All site content editing uses ordinary WordPress administration.
+
+## Partnerships page (Parcerias)
+
+The page `/pt/parcerias/` is created automatically, once, the first time the site is visited after the plugin is installed or updated. It appears under **Pages** as *Parcerias*, as a child of *Início*, and its content is only the shortcode `[gpav_parcerias]`. Everything else lives in the plugin folder `wp-content/plugins/gpav-content/parcerias/`:
+
+| File | What it controls |
+|---|---|
+| `parcerias.html` | All texts, sections, event captions and contact links. Comments in the file explain each block. |
+| `parcerias.css` | Colours and layout. It reuses the site's own variables, so the page follows the site design. |
+| `parcerias.js` | Fato ou Fake questions (`Q`), plans and prices (`T`, `R`), partnership e-mail and WhatsApp number (`MAIL`, `WA`). |
+| `img/` | The photographs and logos used by the page. |
+
+Notes:
+
+- Only a Portuguese page exists. The English menu links to it with the label "Partnerships (PT)".
+- If you replaced the default navigation in **Appearance → Menus**, add a link to `/pt/parcerias/` manually. The default menus already include it.
+- If the page is deleted in WordPress it is not recreated automatically.
+- The page stores nothing in the database; the e-mail and WhatsApp buttons open the visitor's own e-mail or WhatsApp.

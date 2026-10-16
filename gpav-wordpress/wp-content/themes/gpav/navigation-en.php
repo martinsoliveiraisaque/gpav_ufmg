@@ -18,6 +18,7 @@
         </ul>
       </li>
       <li><a href="<?php echo esc_url(home_url('/en/publications/')); ?>">Publications</a></li>
+      <li><a href="<?php echo esc_url(home_url('/pt/parcerias/')); ?>">Partnerships (PT)</a></li>
       <li><a href="<?php echo esc_url(home_url('/en/contact/')); ?>">Contact</a></li>
     </ul>
   </div>

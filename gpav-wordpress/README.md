@@ -8,6 +8,7 @@ This package contains the custom theme, companion plugin, uploaded media, migrat
 
 - `wp-content/themes/gpav/`: the original design converted to a WordPress theme.
 - `wp-content/plugins/gpav-content/`: news, team profiles, translation links, Formspree and PubMed integration.
+- `wp-content/plugins/gpav-content/parcerias/` and `gpav-parcerias.php`: the Partnerships page (texts, styles, script and images). The page itself is created automatically by the plugin.
 - `wp-content/uploads/gpav/`: original media, including logos, banners, team photographs and news images.
 - `database/gpav.sql`: site database export, **excluding user and usermeta tables** so the host's WordPress administrator survives the import.
 - `INSTALLATION.md`: installation instructions and server configuration.

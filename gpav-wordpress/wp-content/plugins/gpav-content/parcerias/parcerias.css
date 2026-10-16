@@ -1,0 +1,168 @@
+/* ==========================================================================
+   parcerias.css — PÁGINA "PARCERIAS" DO SITE DO GPAv
+   Visual da proposta de parceria (fontes Bricolage Grotesque e Public Sans, verde da marca,
+   cartão do jogo escuro, blocos arredondados), dentro da moldura do site (cabeçalho, menu e
+   rodapé continuam os do site). Tudo fica dentro de ".pc" para não afetar as outras páginas.
+   Cores: troque as variáveis logo abaixo.
+   ========================================================================== */
+.pc{
+  --ink:#10231A;      /* texto principal */
+  --soft:#43574B;     /* texto secundário */
+  --green:#1F7A4D;    /* verde da marca: botões, marcadores */
+  --deep:#0F3D2B;     /* verde escuro: títulos, jogo, blocos */
+  --mint:#BFE3CE;     /* verde claro: destaques sobre o verde escuro */
+  --eosin:#D93B76;    /* rosa de destaque */
+  --ln:#D9E2DB;       /* linhas e bordas */
+  font-family:'Public Sans',system-ui,-apple-system,'Segoe UI',Roboto,sans-serif;
+  font-size:17px;line-height:1.65;color:var(--ink);padding:.5rem .25rem 1.25rem;
+}
+.pc *{box-sizing:border-box}
+.pc [hidden]{display:none!important}
+.pc h1,.pc h2,.pc h3{font-family:'Bricolage Grotesque','Public Sans',system-ui,sans-serif;letter-spacing:-.02em;line-height:1.08;margin:0}
+.pc h1{font-size:clamp(36px,5.2vw,62px);font-weight:800;color:var(--deep)}
+.pc h2{font-size:clamp(27px,3.4vw,40px);font-weight:800;color:var(--ink);max-width:20ch}
+.pc h3{font-size:20px;font-weight:700;color:var(--ink)}
+.pc p{margin:0}
+.pc>section{padding-top:72px}
+.pc a{color:inherit}
+.pc :focus-visible{outline:3px solid var(--eosin);outline-offset:3px}
+
+/* ---------- Botões (formato de pílula) ---------- */
+.pc-btn{display:inline-block;border:2px solid var(--green);border-radius:100px;padding:12px 24px;background:transparent;color:var(--green);font:600 15px 'Public Sans',system-ui,sans-serif;text-decoration:none;cursor:pointer;transition:transform .15s}
+.pc-btn:hover{background:var(--green);color:#fff}
+.pc-btn:active{transform:scale(.97)}
+.pc-btn.main{background:var(--green);color:#fff}
+.pc-btn.main:hover{background:var(--deep);border-color:var(--deep)}
+.pc-actions{display:flex;flex-wrap:wrap;gap:12px}
+
+/* ---------- Abertura ---------- */
+.pc-top{display:grid;grid-template-columns:1.1fr .9fr;gap:56px;align-items:center;padding:24px 0 8px}
+.pc .pc-lead{margin:24px 0 32px;color:var(--soft);max-width:52ch}
+
+/* ---------- Jogo "Fato ou Fake": cartão verde escuro com sombra menta ---------- */
+.pc-game{background:var(--deep);color:#fff;border-radius:22px 22px 22px 4px;padding:32px;box-shadow:12px 12px 0 var(--mint);margin-right:12px}
+.pc-game small{display:block;color:var(--mint);font-size:14px}
+.pc-q{font:700 clamp(21px,2.3vw,26px)/1.25 'Bricolage Grotesque',system-ui,sans-serif;min-height:5.2em;margin:14px 0 22px;color:#fff}
+.pc-ans{display:flex;gap:12px}
+.pc-ans button{flex:1;border:2px solid var(--mint);background:transparent;color:#fff;border-radius:12px;padding:14px;font:700 17px 'Bricolage Grotesque',system-ui,sans-serif;cursor:pointer}
+.pc-ans button:hover:not(:disabled){background:var(--mint);color:var(--deep)}
+.pc-ans button:disabled{opacity:.55;cursor:default}
+.pc-fb{margin-top:18px;min-height:4.6em;font-size:15px;color:#E4F2EA}
+.pc-fb b{display:block;font:800 19px 'Bricolage Grotesque',system-ui,sans-serif}
+.pc-fb b.ok{color:var(--mint)}.pc-fb b.no{color:#FF9DBB}
+.pc-next{display:none;margin-top:6px;background:var(--eosin);border-color:var(--eosin);color:#fff}
+.pc-next:hover{background:#b82d61;border-color:#b82d61}
+.pc-bar{height:5px;border-radius:5px;background:rgba(255,255,255,.18);margin-top:20px;overflow:hidden}
+.pc-bar i{display:block;height:100%;width:0;background:var(--mint);transition:width .4s}
+
+/* ---------- Quem somos ---------- */
+.pc-about{display:grid;grid-template-columns:1fr 1fr;gap:56px;align-items:center}
+.pc-about p{color:var(--soft);margin-top:20px}
+.pc-about h2+p{margin-top:24px}
+.pc-about figure{margin:0}
+.pc-about img{display:block;width:100%;aspect-ratio:4/3.2;object-fit:cover;object-position:center 22%;border-radius:6px 40px 6px 6px}
+.pc-about figcaption{font-size:14px;color:var(--soft);margin-top:10px}
+.pc-cols{margin-top:48px;display:grid;grid-template-columns:repeat(3,1fr);border-top:3px solid var(--deep)}
+.pc-cols>div{padding:22px 28px 0 0}
+.pc-cols p{font-size:15px;color:var(--soft);margin-top:8px}
+
+/* ---------- Alcance: bloco verde escuro ---------- */
+.pc-reach{background:var(--deep);color:#fff;border-radius:28px;padding:48px;display:grid;grid-template-columns:1fr 1.25fr;gap:48px;align-items:center}
+.pc-reach h2{color:#fff}
+.pc-stats{display:grid;grid-template-columns:1fr 1fr;gap:28px 20px;margin-top:36px}
+.pc-stats b{display:block;font:800 clamp(36px,4.4vw,52px)/1 'Bricolage Grotesque',system-ui,sans-serif;color:var(--mint)}
+.pc-stats span{font-size:15px;color:#CFE3D6}
+.pc-chart{background:rgba(255,255,255,.07);border-radius:16px;padding:26px}
+.pc-chart .big{font:800 40px 'Bricolage Grotesque',system-ui,sans-serif}
+.pc-chart .big em{font:600 15px 'Public Sans',system-ui,sans-serif;color:var(--mint);font-style:normal;margin-left:10px}
+.pc-chart p{margin:2px 0 14px;font-size:15px;color:#CFE3D6}
+.pc-chart svg{display:block;width:100%;height:auto}
+.pc-chart path.ln{stroke-dasharray:1400;stroke-dashoffset:1400}
+.pc-chart.on path.ln{transition:stroke-dashoffset 2s ease;stroke-dashoffset:0}
+.pc-ax{display:flex;justify-content:space-between;font-size:13px;color:#9EBBA9;margin-top:6px}
+
+/* ---------- Eventos ---------- */
+.pc .pc-intro{margin-top:20px;color:var(--soft);max-width:70ch}
+.pc-chips{display:flex;gap:8px;flex-wrap:wrap;margin:28px 0 32px}
+.pc-chips .pc-btn{border:1.5px solid var(--ln);background:#fff;color:var(--ink);border-radius:100px;padding:8px 18px;font-weight:500}
+.pc-chips .pc-btn:hover{background:#F0F6F2;color:var(--ink)}
+.pc-chips .pc-btn[aria-pressed="true"]{background:var(--ink);border-color:var(--ink);color:#fff}
+.pc-gal{display:grid;grid-template-columns:repeat(2,1fr);gap:28px 24px}
+.pc-fig{margin:0}
+.pc-fig button{display:block;width:100%;padding:0;border:0;background:none;cursor:zoom-in;border-radius:6px;overflow:hidden}
+.pc-fig img{display:block;width:100%;height:auto;transition:transform .4s}
+.pc-fig button:hover img{transform:scale(1.04)}
+.pc-fig figcaption{padding:0}
+.pc-fig b{display:block;margin-top:10px;font:700 17px/1.25 'Bricolage Grotesque',system-ui,sans-serif}
+.pc-fig span{font-size:14px;color:var(--soft)}
+.pc-lb{border:0;padding:0;background:none;max-width:min(94vw,1100px)}
+.pc-lb::backdrop{background:rgba(8,20,14,.82)}
+.pc-lb img{display:block;max-width:100%;max-height:84vh;margin:auto;border-radius:6px}
+.pc-lb .pc-btn{display:block;margin:12px auto 0}
+
+/* ---------- Planos ---------- */
+.pc-tiers{display:grid;grid-template-columns:repeat(3,1fr);gap:20px;margin:40px 0 32px}
+.pc-tier{position:relative;display:block;background:#fff;border:2px solid var(--ln);border-radius:18px;cursor:pointer;overflow:hidden;font-weight:400;transition:border-color .2s,transform .2s}
+.pc-tier input{position:absolute;opacity:0}
+.pc-tier:focus-within{outline:3px solid var(--eosin);outline-offset:3px}
+.pc-tier.sel{border-color:var(--ink);transform:translateY(-6px)}
+.pc-tier header{padding:22px 24px;color:#fff}
+.pc-tier h3{font-size:26px;font-weight:800;color:#fff}
+.pc-tier header span{font-weight:500;font-size:15px;opacity:.95}
+.pc-tier.bronze header{background:linear-gradient(135deg,#B0703B,#8A5327)}
+.pc-tier.prata header{background:linear-gradient(135deg,#9BA7A0,#6F7E77)}
+.pc-tier.ouro header{background:linear-gradient(135deg,#D9AC33,#B0791A)}
+.pc-tier ul{list-style:none;margin:0;padding:10px 24px 18px;font-size:15px}
+.pc-tier li{display:flex;justify-content:space-between;gap:12px;padding:9px 0;border-bottom:1px solid var(--ln)}
+.pc-tier li:last-child{border:0}
+.pc-tier li.off{color:#A5B1AA}
+.pc-tier li b{font-weight:600;text-align:right}
+
+/* ---------- Simulador ---------- */
+.pc-sim{display:grid;grid-template-columns:1.1fr .9fr;gap:40px;background:#fff;border:2px solid var(--ink);border-radius:20px;padding:36px}
+.pc-sim label{display:block;font-weight:600;font-size:15px;margin-bottom:6px}
+.pc-sim input[type="text"]{width:100%;padding:12px 14px;border:1.5px solid var(--ln);border-radius:10px;font:inherit;margin-bottom:22px;background:#fff}
+.pc-sim input[type="range"]{width:100%;accent-color:var(--green)}
+.pc-tot{font:800 clamp(34px,4vw,46px)/1 'Bricolage Grotesque',system-ui,sans-serif;color:var(--deep);margin:6px 0 4px}
+.pc .pc-muted{color:var(--soft);font-size:15px}
+.pc-sim .pc-actions{margin-top:20px}
+.pc .pc-alt{margin-top:14px;font-size:15px;color:var(--soft)}
+.pc-alt a{color:var(--green)}
+
+/* ---------- Investimento ---------- */
+.pc-inv{display:grid;grid-template-columns:1fr 1fr;gap:56px;align-items:center}
+.pc-inv ul{margin:28px 0 0;padding:0;list-style:none}
+.pc-inv li{position:relative;padding:16px 0 16px 34px;border-bottom:1px solid var(--ln);font-weight:500}
+.pc-inv li::before{content:"";position:absolute;left:4px;top:25px;width:12px;height:12px;border-radius:50%;background:var(--green)}
+.pc-quote{display:flex;flex-direction:column;align-items:center;gap:22px}
+.pc-quote img{width:128px;height:auto}
+.pc-quote blockquote{margin:0;width:100%;text-align:center;hyphens:auto;font:700 clamp(22px,2.8vw,32px)/1.2 'Bricolage Grotesque',system-ui,sans-serif;color:var(--deep)}
+
+/* ---------- Contato e parceiros: bloco verde escuro (o rodapé do site vem logo depois) ---------- */
+.pc-contact{background:var(--deep);color:#fff;border-radius:28px;padding:56px 48px 40px}
+.pc-contact h2{color:#fff;max-width:18ch}
+.pc-contact p{color:#CFE3D6}
+.pc-ctop{display:grid;grid-template-columns:1.2fr .8fr;gap:48px;align-items:end}
+.pc-ctop p{margin-top:18px;max-width:48ch}
+.pc-contacts a{display:block;text-decoration:none;padding:14px 0;border-bottom:1px solid rgba(255,255,255,.16);font-weight:500;color:#fff}
+.pc-contacts a:hover{color:var(--mint)}
+.pc-contacts small{display:block;color:#9EBBA9;font-size:13px}
+.pc-partw{margin-top:48px;padding-top:28px;border-top:1px solid rgba(255,255,255,.16)}
+.pc-partw p{margin:0 0 16px;font-size:15px}
+.pc-part{display:flex;gap:16px;flex-wrap:wrap}
+.pc-part span{display:flex;align-items:center;justify-content:center;width:150px;height:84px;padding:8px;background:#fff;border-radius:12px}
+.pc-part img{max-width:100%;max-height:100%;object-fit:contain}
+
+/* ---------- Telas pequenas ---------- */
+@media(max-width:860px){
+  .pc{font-size:16px}
+  .pc>section{padding-top:56px}
+  .pc-top,.pc-about,.pc-reach,.pc-sim,.pc-inv,.pc-ctop{grid-template-columns:1fr;gap:32px}
+  .pc-cols,.pc-tiers,.pc-gal{grid-template-columns:1fr}
+  .pc-cols>div{padding-bottom:18px}
+  .pc-reach,.pc-contact{padding:32px 22px}
+  .pc-sim{padding:24px 20px}
+  .pc-game{box-shadow:8px 8px 0 var(--mint);margin-right:8px;padding:24px}
+  .pc-q{min-height:0}
+}
+@media(prefers-reduced-motion:reduce){.pc *{transition:none!important}.pc-chart path.ln{stroke-dashoffset:0}}
