@@ -39,7 +39,7 @@ function gpav_parcerias_ensure_page() {
     if (!add_option('gpav_parcerias_lock', time(), '', 'no')) return;   // evita criar duas páginas em acessos simultâneos
     if (!get_page_by_path('pt/parcerias')) {
         $id = wp_insert_post([
-            'post_type' => 'page', 'post_status' => 'publish', 'post_title' => 'Parcerias', 'post_name' => 'parcerias',
+            'post_type' => 'page', 'post_status' => 'publish', 'post_title' => 'Seja nosso parceiro', 'post_name' => 'parcerias',
             'post_parent' => (int) $home[0], 'post_content' => '[gpav_parcerias]', 'comment_status' => 'closed', 'ping_status' => 'closed',
         ], true);
         if (is_wp_error($id)) { delete_option('gpav_parcerias_lock'); return; }

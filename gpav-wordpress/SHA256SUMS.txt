@@ -9,7 +9,7 @@ d7548963ed11e4085b7ea3c013c0918272611f9adc67580669cb087633dff7f0  EDITING.md
 33e60831afa147769b11e6fb5af98558585c3e4339389bfb090742f8087bf17e  wp-content/plugins/gpav-content/contact-en.html
 f0103b37e35223121626ba0cd9d60b0c2d5d36ad497a14173ea944d2fbd74491  wp-content/plugins/gpav-content/contact-pt.html
 1f2d2f1272ce63ee4a246e1ac7a676f0697cf8fbc3a3ecc42a34f97013d5c798  wp-content/plugins/gpav-content/gpav-content.php
-f1c4183c96e586b785c3133b51e2096c11eae84bc932e15a5778c5408bc921dd  wp-content/plugins/gpav-content/gpav-parcerias.php
+5bf0e7d6156a504a9ab554294196cfb25ef43deb98ed8a9d4acf396a6abfd433  wp-content/plugins/gpav-content/gpav-parcerias.php
 fb7f4bb729915e730f002dbcc0c6f10299ff14877b04c44690e434b1f6fff1a7  wp-content/plugins/gpav-content/parcerias/img/equipe.jpg
 0884deb6c603c703b67ba1f6581062542a9e08485a34464461085615cbdc4458  wp-content/plugins/gpav-content/parcerias/img/evento-1.png
 b06d22011f776d2229ad71f608b168258e819ceb9d10f76eef4c1a5e1ad33fbd  wp-content/plugins/gpav-content/parcerias/img/evento-2.png
@@ -43,8 +43,8 @@ aa726782ae71414b2556fb5fca5a00490df7b8ec7a31c62dd0a240926244488b  wp-content/the
 0881e5f7c88b76c0819320c36c88a6355a49d6331dfdbf281aee05062e070e7f  wp-content/themes/gpav/header-pt.php
 fac01504142ecd0b46235d1f83eaa15e7d271e383b95511ff63fe47b24e75f04  wp-content/themes/gpav/header.php
 b9cbd969362d6991f8b6ebaf6a9bda98c3dfcc4a967863ae2dc1945b53971e15  wp-content/themes/gpav/index.php
-d9e48cc774f05d7afd42e0b076b96647f5538d2a19698e130a486079fc30629d  wp-content/themes/gpav/navigation-en.php
-011552bb1251b103b2bc302c0264fd04571ccde0185cf68500064b63a053bf88  wp-content/themes/gpav/navigation-pt.php
+5dc0601ecf712316c750b89f7c0e139174fdcbf01901fc50cb9d7c576bacbca7  wp-content/themes/gpav/navigation-en.php
+c424319d64736f951b1d2795306a3812cc36b02db8f224fd1145f60c1b328474  wp-content/themes/gpav/navigation-pt.php
 e6f607218924679b2bc044d4e9cd3da62e8e4da2e7f49d709ec612a13e54ed48  wp-content/themes/gpav/style.css
 d6e5523da8fa239de7e6a012f34b909bb787b22118069f4a2891ba70bfbe2c58  wp-content/uploads/gpav/banner/banner1-1024x576.jpg
 7d87191b72d15f015d1cab2ee22e06a5249d4772178a7eb00b81cc23b70c95ed  wp-content/uploads/gpav/banner/banner1-150x150.jpg

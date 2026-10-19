@@ -1,6 +1,6 @@
 ---
 layout: default
-title: Parcerias
+title: Seja nosso parceiro
 lang_root: pt
 lang_tag: pt-BR
 lang_switch: /en/
