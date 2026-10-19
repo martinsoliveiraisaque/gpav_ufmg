@@ -2,157 +2,133 @@ members:
   - order: 1
     name: Vivian Vasconcelos Costa
     role: Group Leader
-    bio_pt: "Professora adjunta e pesquisadora na Universidade Federal de Minas
-      Gerais (UFMG) desde 2017. Possuo mestrado (2009) e doutorado (2013) com
-      especialização em Microbiologia, além de pós-doutorado (2013-2017) em
-      Doenças Infecciosas. Coordeno um grupo de pesquisa, o @GPAV.UFMG, que é
-      referência em estudos sobre arbovírus no Brasil, focado no desenvolvimento
-      de plataformas pré-clínicas para entender a patogênese viral e identificar
-      novas estratégias terapêuticas para reduzir o impacto dessas doenças.
-      Minha equipe se dedica a investigar os mecanismos que determinam a
-      gravidade e persistência das infecções virais, com ênfase na fase de
-      resolução da inflamação. "
-    bio_en: Adjunct Professor and researcher at the Federal University of Minas
-      Gerais (UFMG) since 2017. I hold a master's degree (2009) and a doctorate
-      (2013) specializing in Microbiology, as well as a postdoctoral degree
-      (2013-2017) in Infectious Diseases. I coordinate a research group,
-      @GPAV.UFMG, which is a reference in arbovirus studies in Brazil, focused
-      on the development of preclinical platforms to understand viral
-      pathogenesis and identify new therapeutic strategies to reduce the impact
-      of these diseases. My team is dedicated to investigating the mechanisms
-      that determine the severity and persistence of viral infections, with an
-      emphasis on the resolution phase of inflammation.
+    bio_pt: "Professora adjunta e pesquisadora na Universidade Federal de Minas Gerais (UFMG) desde 2017. Possuo mestrado (2009) e doutorado (2013) com especialização em Microbiologia, além de pós-doutorado (2013-2017) em Doenças Infecciosas. Coordeno um grupo de pesquisa, o @GPAV.UFMG, que é referência em estudos sobre arbovírus no Brasil, focado no desenvolvimento de plataformas pré-clínicas para entender a patogênese viral e identificar novas estratégias terapêuticas para reduzir o impacto dessas doenças. Minha equipe se dedica a investigar os mecanismos que determinam a gravidade e persistência das infecções virais, com ênfase na fase de resolução da inflamação. "
+    bio_en: "Adjunct Professor and researcher at the Federal University of Minas Gerais (UFMG) since 2017. I hold a master's degree (2009) and a doctorate (2013) specializing in Microbiology, as well as a postdoctoral degree (2013-2017) in Infectious Diseases. I coordinate a research group, @GPAV.UFMG, which is a reference in arbovirus studies in Brazil, focused on the development of preclinical platforms to understand viral pathogenesis and identify new therapeutic strategies to reduce the impact of these diseases. My team is dedicated to investigating the mechanisms that determine the severity and persistence of viral infections, with an emphasis on the resolution phase of inflammation."
     photo: assets/images/uploads/vivian.jpg
     lattes: http://lattes.cnpq.br/6010924145549202
   - order: 1
     name: Ana Luiza Campos Cruz
     role: Postdocs
-    bio_pt: >
-      Graduação (bacharelado) em Bioquímica pela UFSJ. Mestre e doutora em
-      Microbiologia, pela UFMG. Possui experiência com técnicas clássicas de
-      virologia, biologia molecular e modelo animal murino.
-    bio_en: Bachelor's degree in Biochemistry from UFSJ. Master's and PhD in
-      Microbiology from UFMG. Has experience with classical virology techniques,
-      molecular biology, and murine animal models.
+    bio_pt: "Graduação (bacharelado) em Bioquímica pela UFSJ. Mestre e doutora em Microbiologia, pela UFMG. Possui experiência com técnicas clássicas de virologia, biologia molecular e modelo animal murino.\n"
+    bio_en: "Bachelor's degree in Biochemistry from UFSJ. Master's and PhD in Microbiology from UFMG. Has experience with classical virology techniques, molecular biology, and murine animal models."
     photo: assets/images/uploads/scientist_model.png
     lattes: http://lattes.cnpq.br/7814381638362185
+  - order: 2
+    name: Felipe Rocha da Silva Santos
+    role: Postdocs
+    bio_pt: "Bacharel em Bioquímica, Mestre em Ciências da Saúde na área de concentração de Substâncias Bioativas e Doutor pelo Programa de Pós-Graduação em Biotecnologia na área de concentração de Biotecnologia Aplicada à Saúde pela Universidade Federal de São João del-Rei, Campus Centro Oeste Dona Lindu, onde teve sua tese agraciada com o Prêmio Capes de Teses 2020 na área Biotecnologia. Possui experiência na área de Modelagem Molecular e Bioinformática com ênfase na caracterização de alvos moleculares para o desenvolvimento de fármacos antibacterianos, antivirais e antifúngicos, aplicando técnicas de triagem virtual, ancoragem e dinâmica molecular. Atuou no Centro de Imunologia do Instituto Adolfo Lutz (SP) na aplicação de peptídeos sintéticos e proteínas recombinantes no desenvolvimento de testes de diagnóstico e vacinas contra os vírus causadores da Zika e COVID-19. É pesquisador nível pós-doutorado no Laboratório de ImunoFarmacologia (ICB-UFMG) sob supervisão da Profa. Dra. Vivian Costa e atua realizando a avaliação da eficácia terapêutica in vitro e in vivo de promissores candidatos a antivirais contra flavivírus e betacoronavírus. Atualmente é Pesquisador Visitante do Instituto de Virologia Molecular da Universidade de Münster na Alemanha."
+    bio_en: "Bachelor's degree in Biochemistry, Master's degree in Health Sciences (concentration area: Bioactive Substances) and PhD in the Graduate Program in Biotechnology (concentration area: Biotechnology Applied to Health) from the Federal University of São João del-Rei, Centro-Oeste Dona Lindu Campus, where his thesis received the 2020 Capes Thesis Award in Biotechnology. He has experience in Molecular Modeling and Bioinformatics, with emphasis on characterizing molecular targets for the development of antibacterial, antiviral and antifungal drugs, applying virtual screening, docking and molecular dynamics techniques. He worked at the Immunology Center of the Adolfo Lutz Institute (SP), applying synthetic peptides and recombinant proteins to the development of diagnostic tests and vaccines against the viruses that cause Zika and COVID-19. He is a postdoctoral researcher at the Immunopharmacology Laboratory (ICB-UFMG) under the supervision of Prof. Dr. Vivian Costa, evaluating the in vitro and in vivo therapeutic efficacy of promising antiviral candidates against flaviviruses and betacoronaviruses. He is currently a Visiting Researcher at the Institute of Molecular Virology, University of Münster, Germany."
+    photo: assets/images/uploads/felipe-rocha.jpg
+    lattes: http://lattes.cnpq.br/4141759474223678
+  - order: 3
+    name: Luiz Pedro de Souza-Costa
+    role: Postdocs
+    bio_pt: "Graduado em Biotecnologia pela Universidade Federal do Amazonas - UFAM; Especialização em Análises Clínicas pela Faculdade Futura; Mestrado em Biologia Celular e Estrutural pela Universidade Federal de Viçosa - UFV; Doutorado em Bioquímica e Imunologia pela Universidade Federal de Minas Gerais - UFMG. Atualmente é residente de Pós-Doutorado no Departamento de Bioquímica e Imunologia do Instituto de Ciências Biológicas - ICB da Universidade Federal de Minas Gerais - UFMG. Experiência em histologia, processamento de material histológico para microscopia de Luz e Eletrônica, análise histopatológica do parênquima renal e do trato gastrointestinal, desenvolvendo pesquisa com uso de drogas de origem vegetal para o tratamento da obesidade e diabetes. Durante o mestrado trabalhou com Toxicologia Reprodutiva avaliando efeitos de compostos de origem vegetal sobre o aparelho reprodutor masculino em modelo pré-clínico, realizando análises histomorfométricas e bioquímicas. Durante o doutorado trabalhou em diversas vertentes relacionadas à resposta da imunidade inata voltada para a relação vírus-hospedeiro, onde o foco principal foi estudar o papel da proteína E3 Ubiquitina-ligase Smurf1 no processo imunopatológico induzido por Coronavírus (MHV), além de possuir experiência em laboratório de biossegurança nível 2 e 3 (NB2/3)."
+    bio_en: "Bachelor's degree in Biotechnology from the Federal University of Amazonas (UFAM); specialization in Clinical Analysis from Faculdade Futura; Master's degree in Cell and Structural Biology from the Federal University of Viçosa (UFV); PhD in Biochemistry and Immunology from the Federal University of Minas Gerais (UFMG). He is currently a postdoctoral resident in the Department of Biochemistry and Immunology of the Institute of Biological Sciences (ICB), UFMG. He has experience in histology, processing of histological material for light and electron microscopy, and histopathological analysis of the renal parenchyma and gastrointestinal tract, conducting research on the use of plant-derived drugs for the treatment of obesity and diabetes. During his master's, he worked in Reproductive Toxicology, evaluating the effects of plant-derived compounds on the male reproductive system in a preclinical model, performing histomorphometric and biochemical analyses. During his PhD, he worked on several aspects of the innate immune response related to virus-host interaction, mainly studying the role of the E3 ubiquitin ligase Smurf1 in the immunopathological process induced by coronavirus (MHV). He also has experience in biosafety level 2 and 3 (BSL-2/3) laboratories."
+    photo: assets/images/uploads/luiz-pedro.jpg
+    lattes: http://lattes.cnpq.br/2630815275600546
+  - order: 4
+    name: Viviane Lima Batista
+    role: Postdocs
+    bio_pt: "Graduada em Ciências Biológicas (Bacharelado e Licenciatura) pela Faculdade Pitágoras de Belo Horizonte (2018). Mestre em Genética pela Universidade Federal de Minas Gerais (UFMG), com ênfase em biologia molecular, genética de microrganismos e biotecnologia (2021), e Doutora em Ciências Biológicas (Microbiologia) pela UFMG (2026). Possui experiência em microbiologia, virologia, imunologia, biologia celular e molecular, em pesquisa básica e translacional. No doutorado, estudou a tromboinflamação e a trombocitopenia associadas à infecção pelo vírus da dengue, com foco em megacariócitos, plaquetas e dano vascular, e investigou o potencial terapêutico da angiotensina-(1-7) em modelos experimentais de infecção viral. Atua também em ensino, formação de recursos humanos e divulgação científica."
+    bio_en: "Bachelor's and teaching degrees in Biological Sciences from Faculdade Pitágoras de Belo Horizonte (2018). Master's degree in Genetics from the Federal University of Minas Gerais (UFMG), with emphasis on molecular biology, microbial genetics and biotechnology (2021), and PhD in Biological Sciences (Microbiology) from UFMG (2026). She has experience in microbiology, virology, immunology, and cell and molecular biology, in basic and translational research. During her PhD, she studied thromboinflammation and thrombocytopenia associated with dengue virus infection, focusing on megakaryocytes, platelets and vascular damage, and investigated the therapeutic potential of angiotensin-(1-7) in experimental models of viral infection. She is also engaged in teaching, training of human resources and science communication."
+    photo: assets/images/uploads/viviane-batista.jpg
+    lattes: http://lattes.cnpq.br/2795466902468433
+  - order: 5
+    name: Angélica Samer Lallo Dias
+    role: Postdocs
+    bio_pt: "Graduada em Ciências Biológicas pela Universidade Federal de Minas Gerais, mesma universidade na qual obteve os títulos de mestre (2018) e doutora (2022) em Bioquímica e Imunologia. Atualmente é residente de Pós-Doutorado no Centro de Pesquisa e Desenvolvimento de Fármacos sob supervisão da Profa. Dra. Vivian Vasconcelos Costa. Possui experiência no estudo de infecções virais por flavivírus e desde 2018 atua no desenvolvimento de plataformas pré-clínicas voltadas à compreensão da patogênese da infecção pelo vírus da dengue e à identificação de estratégias terapêuticas inovadoras, oriundas da testagem de pró-drogas ou do resposicionamento farmacológico de terapias licenciadas. Faz parte da equipe colaborativa da Dengue Alliance, iniciativa do programa internacional Drugs for Neglected Diseases initiative (DNDi) que busca o desenvolvimento de terapias para doenças negligenciadas como a dengue. Já atuou em projetos envolvendo Schistosoma mansoni e pesquisa dos canais de cálcio no desenvolvimento de asma em modelo murino. Na graduação foi bolsista por 3 anos do programa de Imersão à Docência no Colégio Técnico da UFMG onde desenvolveu um projeto de extensão, sendo premiada como destaque acadêmico na \"UFMG Conhecimento e Cultura 2013\"."
+    bio_en: "Bachelor's degree in Biological Sciences from the Federal University of Minas Gerais, where she also earned her master's (2018) and PhD (2022) degrees in Biochemistry and Immunology. She is currently a postdoctoral resident at the Drug Research and Development Center under the supervision of Dr. Vivian Vasconcelos Costa. She has experience in the study of flavivirus infections and, since 2018, has been developing preclinical platforms aimed at understanding the pathogenesis of dengue virus infection and identifying innovative therapeutic strategies, derived from testing prodrugs or from the pharmacological repositioning of licensed therapies. She is part of the collaborative team of the Dengue Alliance, an initiative of the international Drugs for Neglected Diseases initiative (DNDi) that seeks to develop therapies for neglected diseases such as dengue. She has also worked on projects involving Schistosoma mansoni and the study of calcium channels in the development of asthma in a murine model. During her undergraduate studies, she was a fellow for three years in the Teaching Immersion program at the Colégio Técnico of UFMG, where she developed an outreach project, and was recognized as an academic highlight at \"UFMG Conhecimento e Cultura 2013\"."
+    photo: assets/images/uploads/angelica-samer.jpg
+    lattes: http://lattes.cnpq.br/4874725380501422
   - order: 1
     name: Danielle Cunha Teixeira
     role: PhD students
-    photo: assets/images/uploads/scientist_model.png
-    bio_pt: Biografia (PT)
-    bio_en: Biography (EN)
-  - order: 2
-    name: Jenniffer Ramos Martins
-    role: PhD students
-    bio_en: Bachelor's degree in Biological Sciences from the State University of
-      Minas Gerais - UEMG (2022). Master's degree in Sciences with emphasis in
-      Cell Biology from the Federal University of Minas Gerais - UFMG
-      (2022-2023) and currently pursuing a PhD in Biochemistry and Immunology,
-      also at the Federal University of Minas Gerais - UFMG. Has experience in
-      the areas of Cell Biology, with emphasis on Cellular Immunology, Virology,
-      Microorganism-Host Interaction, and Biology of Inflammatory Processes. Has
-      been working on research into the immunopathology of dengue virus
-      infection, including the development and repositioning of drugs for viral
-      diseases in the Immunopharmacology laboratory.
-    bio_pt: Graduação (Licenciatura) em Ciências Biológicas pela Universidade do
-      Estado de Minas Gerais - UEMG (2022). Mestrado em Ciências com ênfase em
-      Biologia Celular pela Universidade Federal de Minas Gerais - UFMG
-      (2022-2023) e Doutorado em andamento em Bioquímica e Imunologia também
-      pela Universidade Federal de Minas Gerais UFMG. Possui experiência nas
-      áreas de Biologia Celular, com ênfase em Imunologia Celular, Virologia,
-      Interação Microrganismo-hospedeiro e Biologia dos Processos Inflamatórios.
-      Vem atuando na pesquisa da imunopatologia da infecção pelos vírus da
-      dengue com o desenvolvimento e reposicionamento de fármacos para doenças
-      virais no laboratório de Imunofarmacologia.
-    photo: assets/images/uploads/scientist_model.png
-    lattes: http://lattes.cnpq.br/1743707752012613
-  - order: 3
-    name: Matheus Rodrigues Gonçalves
-    role: PhD students
-    bio_pt: Biografia (PT)
-    bio_en: Biography (EN)
-    lattes: http://lattes.cnpq.br/9989291417131833
-    photo: assets/images/uploads/scientist_model.png
-  - order: 4
-    name: Viviane Lima Batista
-    role: PhD students
-    bio_pt: "Bacharela e licenciada em Ciências Biológicas pela Faculdade Pitágoras
-      de Belo Horizonte (2018). Mestre em Genética pela Universidade Federal de
-      Minas Gerais (UFMG), com ênfase em biologia molecular, genética de
-      microrganismos e biotecnologia (2021). Atualmente, é doutoranda em
-      Ciências Biológicas (Microbiologia) pela UFMG (2022-2026). Possui
-      experiência nas áreas de microbiologia, biologia celular, biologia
-      molecular, genética e virologia. No doutorado, desenvolve pesquisas
-      voltadas à elucidação dos mecanismos de tromboinflamação e trombocitopenia
-      induzidos pelo vírus da dengue, bem como ao desenvolvimento de fármacos
-      para doenças virais. Durante o mestrado, adquiriu experiência em estudos
-      de microbiota intestinal, clonagem molecular, desenvolvimento de vacinas
-      gênicas e aplicações biotecnológicas e terapêuticas de bactérias
-      probióticas. "
-    bio_en: Bachelor's and Licentiate degree in Biological Sciences from Pitágoras
-      College in Belo Horizonte (2018). Master's degree in Genetics from the
-      Federal University of Minas Gerais (UFMG), with an emphasis on molecular
-      biology, microbial genetics, and biotechnology (2021). Currently, she is a
-      doctoral candidate in Biological Sciences (Microbiology) at UFMG
-      (2022-2026). She has experience in the areas of microbiology, cell
-      biology, molecular biology, genetics, and virology. In her doctoral
-      studies, she is developing research focused on elucidating the mechanisms
-      of thromboinflammation and thrombocytopenia induced by the dengue virus,
-      as well as the development of drugs for viral diseases. During her
-      master's studies, she gained experience in studies of intestinal
-      microbiota, molecular cloning, development of gene vaccines, and
-      biotechnological and therapeutic applications of probiotic bacteria.
-    photo: assets/images/uploads/scientist_model.png
-    lattes: http://lattes.cnpq.br/2795466902468433
-  - order: 1
-    name: Bruno Bernardes da Silva
-    role: Master Students
-    bio_pt: "Graduado em enfermagem, especialista em planejamento em saúde. Linha de
-      pesquisa: relação entre autoimunidade e a infecção por chikungunya. "
-    bio_en: "Graduated in nursing, specializing in health planning. Research area:
-      relationship between autoimmunity and chikungunya infection."
-    photo: assets/images/uploads/scientist_model.png
-    lattes: http://lattes.cnpq.br/9330538984635150
+    bio_pt: "Biomédica graduada pela FAMINAS-BH (2021), com experiência em análises clínicas (Hospital Belo Horizonte-MG) e pesquisa científica desenvolvida no laboratório de imunofarmacologia da Universidade Federal de Minas Gerais (UFMG). Possui expertise em cultivo celular, manipulação de modelos vertebrados e no estudo da patogênese de infecções virais que afetam o sistema nervoso central e causam distúrbios neurológicos, incluindo Zika, Betacoronavírus e Oropouche. Tem ênfase no desenvolvimento de estratégias terapêuticas para mitigar neuroinflamação, morte neuronal e distúrbios comportamentais associados a essas doenças."
+    bio_en: "Biomedical scientist graduated from FAMINAS-BH (2021), with experience in clinical analysis (Hospital Belo Horizonte, MG) and in scientific research carried out at the immunopharmacology laboratory of the Federal University of Minas Gerais (UFMG). She has expertise in cell culture, handling of vertebrate models and the study of the pathogenesis of viral infections that affect the central nervous system and cause neurological disorders, including Zika, Betacoronavirus and Oropouche. Her emphasis is on developing therapeutic strategies to mitigate neuroinflammation, neuronal death and behavioral disorders associated with these diseases."
+    photo: assets/images/uploads/danielle-cunha.jpg
+    lattes: http://lattes.cnpq.br/0665994041344036
   - order: 2
     name: Felipe Emanuel Oliveira Rocha
-    role: Master Students
-    bio_pt: "Graduado em Ciências Biológicas pela Universidade do Estado de Minas
-      Gerais (2020-2023). Atualmente, aluno de mestrado do Programa de
-      Pós-Graduação em Biologia Celular da Universidade Federal de Minas Gerais
-      e integrante Grupo de Pesquisa em Arboviroses e Outras Viroses (GPAV) no
-      Centro de Pesquisa e Desenvolvimento de Fármacos, avaliando a perda óssea
-      induzida por coronavírus e por vírus artritogênicos. "
-    bio_en: Graduated in Biological Sciences from the State University of Minas
-      Gerais (2020-2023). Currently, a master's student in the Postgraduate
-      Program in Cell Biology at the Federal University of Minas Gerais and a
-      member of the Research Group on Arboviruses and Other Viruses (GPAV) at
-      the Drug Research and Development Center, evaluating bone loss induced by
-      coronaviruses and arthritogenic viruses.
-    photo: assets/images/uploads/scientist_model.png
+    role: PhD students
+    bio_pt: "Graduado em Ciências Biológicas pela Universidade do Estado de Minas Gerais (UEMG), Unidade Ibirité (2020-2023). Mestre em Biologia Celular pela Universidade Federal de Minas Gerais (UFMG), sob orientação da Profa. Dra. Vivian Vasconcelos Costa e coorientação do Dr. Celso Martins Queiroz-Junior, com pesquisa sobre os efeitos da infecção por coronavírus no contexto da osteoporose. Atualmente é doutorando em Biologia Celular pela UFMG e estuda sequelas musculoesqueléticas em modelos experimentais de infecção pelo vírus Chikungunya. Foi bolsista de Iniciação Científica na UEMG, em projeto sobre a imunopatologia da lesão do nervo óptico induzida pelo vírus da Zika, e no Instituto René Rachou (Fiocruz Minas), com bolsa do CNPq. Tem experiência em imunofarmacologia, microscopia, citometria de fluxo, PCR, cultivo celular e modelos animais."
+    bio_en: "Graduated in Biological Sciences from the State University of Minas Gerais (UEMG), Ibirité Unit (2020-2023). Master's degree in Cell Biology from the Federal University of Minas Gerais (UFMG), supervised by Prof. Dr. Vivian Vasconcelos Costa and co-supervised by Dr. Celso Martins Queiroz-Junior, with research on the effects of coronavirus infection in the context of osteoporosis. He is currently a PhD student in Cell Biology at UFMG, studying musculoskeletal sequelae in experimental models of Chikungunya virus infection. He was an undergraduate research fellow at UEMG, in a project on the immunopathology of Zika virus-induced optic nerve injury, and at the René Rachou Institute (Fiocruz Minas), with a CNPq fellowship. He has experience in immunopharmacology, microscopy, flow cytometry, PCR, cell culture and animal models."
+    photo: assets/images/uploads/felipe-emanuel.jpg
     lattes: http://lattes.cnpq.br/4589946866008609
   - order: 3
+    name: Jenniffer Ramos Martins
+    role: PhD students
+    bio_pt: "Graduação (Licenciatura) em Ciências Biológicas pela Universidade do Estado de Minas Gerais - UEMG (2022). Mestrado em Ciências com ênfase em Biologia Celular pela Universidade Federal de Minas Gerais - UFMG (2022-2023) e Doutorado em andamento em Bioquímica e Imunologia também pela Universidade Federal de Minas Gerais - UFMG. Possui experiência nas áreas de Biologia Celular, com ênfase em Imunologia Celular, Virologia, Interação Microrganismo-hospedeiro e Biologia dos Processos Inflamatórios. Vem atuando na pesquisa da imunopatologia da infecção pelos vírus da dengue com o desenvolvimento e reposicionamento de fármacos para doenças virais no laboratório de Imunofarmacologia - ICB."
+    bio_en: "Bachelor's degree (Licentiate) in Biological Sciences from the State University of Minas Gerais - UEMG (2022). Master's degree in Sciences with emphasis in Cell Biology from the Federal University of Minas Gerais - UFMG (2022-2023) and a PhD in progress in Biochemistry and Immunology, also at UFMG. She has experience in Cell Biology, with emphasis on Cellular Immunology, Virology, Microorganism-Host Interaction and Biology of Inflammatory Processes. She has been researching the immunopathology of dengue virus infection, developing and repurposing drugs for viral diseases at the Immunopharmacology laboratory - ICB."
+    photo: assets/images/uploads/jenniffer-ramos.jpg
+    lattes: http://lattes.cnpq.br/1743707752012613
+  - order: 4
+    name: Matheus Rodrigues Gonçalves
+    role: PhD students
+    bio_pt: "Graduado em Ciências Biológicas, mestre e doutorando em Microbiologia pela Universidade Federal de Minas Gerais. É integrante do Grupo de Pesquisa em Arboviroses e Outras Viroses (GPAv) do Centro de Pesquisa e Desenvolvimento de Fármacos (CPDF) do Instituto de Ciências Biológicas da UFMG. Desenvolve pesquisas voltadas à patogênese do vírus Chikungunya, com ênfase na persistência da dor articular, além de atuar em projetos relacionados a outros arbovírus de relevância médica e infecções por betacoronavírus. Possui experiência em microbiologia, imunologia, biologia celular e molecular, com foco em virologia e nos mecanismos de interação microrganismo-hospedeiro."
+    bio_en: "Bachelor's degree in Biological Sciences, with a master's degree and currently a PhD student in Microbiology at the Federal University of Minas Gerais. He is a member of the Research Group on Arboviruses and Other Viruses (GPAv) at the Drug Research and Development Center (CPDF) of the Institute of Biological Sciences, UFMG. His research focuses on the pathogenesis of Chikungunya virus, with emphasis on the persistence of joint pain, and he also works on projects related to other medically relevant arboviruses and betacoronavirus infections. He has experience in microbiology, immunology, and cell and molecular biology, focusing on virology and the mechanisms of microorganism-host interaction."
+    photo: assets/images/uploads/matheus-rodrigues.jpg
+    lattes: http://lattes.cnpq.br/9989291417131833
+  - order: 1
+    name: Bárbara Luísa Vieira da Silva
+    role: Master Students
+    bio_pt: "Graduada em Ciências Biológicas (Bacharelado) pela Universidade Federal de Minas Gerais (2024). Atualmente, é mestranda no Programa de Pós-Graduação em Biologia Celular da mesma instituição (2026-2028). Desde 2022, integra o Grupo de Pesquisa em Arboviroses e Outras Viroses (GPAv), vinculado ao Centro de Pesquisa e Desenvolvimento de Fármacos (CPDF) do Instituto de Ciências Biológicas. Possui experiência nas áreas de biologia celular e morfologia, com ênfase em farmacologia. Atuou como bolsista de iniciação científica no GPAv, desenvolvendo atividades relacionadas ao manejo de microrganismos, experimentação in vivo e in vitro, além da aplicação de técnicas de tratamento e rotinas laboratoriais."
+    bio_en: "Bachelor's degree in Biological Sciences from the Federal University of Minas Gerais (UFMG) (2024). Currently a master's student in the Graduate Program in Cell Biology at the same institution (2026-2028). Since 2022, she has been a member of the Arbovirus and Other Viruses Research Group (GPAv), linked to the Drug Research and Development Center (CPDF) of the Institute of Biological Sciences. She has experience in cell biology and morphology, with emphasis on pharmacology. She worked as an undergraduate research fellow at GPAv, carrying out activities related to the handling of microorganisms, in vivo and in vitro experimentation, and the application of treatment techniques and laboratory routines."
+    photo: assets/images/uploads/barbara-luisa.jpg
+    lattes: http://lattes.cnpq.br/4990903044330473
+  - order: 2
     name: Isaque Martins de Oliveira
     role: Master Students
-    bio_pt: Graduado em Biotecnologia pela Universidade federal de São João del Rei,
-      com interesse em genética animal, microbiologia e bioengenharia de
-      sistemas neuronais. Participei do Laboratório de Neurociência Experimental
-      e Computacional (LANEC) como aluno de iniciação científica (IC), estudando
-      os efeitos da cafeína nas atividades epileptiformes não sinápticas e em
-      Desenvolvimentos de métodos para registros eletrofisiológicos em
-      planárias. Atualmente cursando mestrado em microbiologia pela UFMG,
-      estudando o efeito do tratamento de um antiviral e de uma molécula "Host
-      Target Directed" na transposição de sítios imuno-privilegiados em modelo
-      murino de infecção por Zika vírus.
-    bio_en: Graduated in Biotechnology from the Federal University of São João del
-      Rei, with an interest in animal genetics, microbiology, and bioengineering
-      of neuronal systems. I participated in the Laboratory of Experimental and
-      Computational Neuroscience (LANEC) as an undergraduate research student,
-      studying the effects of caffeine on non-synaptic epileptiform activities
-      and in the development of methods for electrophysiological recordings in
-      planarians. Currently pursuing a master's degree in microbiology at UFMG,
-      studying the effect of treatment with an antiviral and a "Host Target
-      Directed" molecule on the transposition of immune-privileged sites in a
-      murine model of Zika virus infection.
-    photo: assets/images/uploads/scientist_model.png
-    lattes: https://lattes.cnpq.br/6917725251681329
+    bio_pt: "Graduado em Biotecnologia pela Universidade Federal de São João del-Rei, com interesse em genética animal, microbiologia e bioengenharia de sistemas neuronais. Participei do Laboratório de Neurociência Experimental e Computacional (LANEC) como aluno de iniciação científica (IC), estudando os efeitos da cafeína nas atividades epileptiformes não sinápticas e no desenvolvimento de métodos para registros eletrofisiológicos em planárias. Atualmente cursando mestrado em microbiologia pela UFMG, estudando o efeito do tratamento de um antiviral e de uma molécula \"Host Target Directed\" na transposição de sítios imuno-privilegiados em modelo murino de infecção por Zika vírus."
+    bio_en: "Graduated in Biotechnology from the Federal University of São João del-Rei, with interests in animal genetics, microbiology and bioengineering of neuronal systems. I took part in the Laboratory of Experimental and Computational Neuroscience (LANEC) as an undergraduate research student, studying the effects of caffeine on non-synaptic epileptiform activity and developing methods for electrophysiological recordings in planarians. I am currently pursuing a master's degree in microbiology at UFMG, studying the effect of treatment with an antiviral and a \"Host Target Directed\" molecule on the transposition of immune-privileged sites in a murine model of Zika virus infection."
+    photo: assets/images/uploads/isaque-martins.jpg
+    lattes: http://lattes.cnpq.br/6917725251681329
+  - order: 3
+    name: Talita Cristina Martins da Fonseca
+    role: Master Students
+    bio_pt: "Graduação (Licenciatura Plena) em Ciências Biológicas pela Universidade Federal de Minas Gerais (UFMG) (2025). Mestrado em andamento pelo programa de pós-graduação em Bioquímica e Imunologia, também pela UFMG (2025-2027). Atua como membro do Grupo de Pesquisa em Arboviroses e Outras Viroses (GPAv) no Centro de Pesquisa e Desenvolvimento de Fármacos (CPDF) do Instituto de Ciências Biológicas (2023-atual). Dedica-se à avaliação de fármacos para o tratamento de doenças como dengue, MHV (vírus da hepatite murina) e outras enfermidades de relevância médica. Além disso, está envolvida no desenvolvimento de modelos experimentais, incluindo modelos humanizados, para estudo da patogênese e teste de terapias."
+    bio_en: "Bachelor's degree (Licentiate) in Biological Sciences from the Federal University of Minas Gerais (UFMG) (2025). Master's degree in progress in the Graduate Program in Biochemistry and Immunology, also at UFMG (2025-2027). She is a member of the Arbovirus and Other Viruses Research Group (GPAv) at the Drug Research and Development Center (CPDF) of the Institute of Biological Sciences (2023-present). She is dedicated to evaluating drugs for the treatment of diseases such as dengue, MHV (murine hepatitis virus) and other medically relevant conditions. She is also involved in developing experimental models, including humanized models, to study pathogenesis and test therapies."
+    photo: assets/images/uploads/talita-cristina.jpg
+    lattes: http://lattes.cnpq.br/0610103988424323
+  - order: 4
+    name: Bruno Bernardes da Silva
+    role: Master Students
+    bio_pt: "Graduado em Enfermagem pelas Faculdades Integradas Aparício Carvalho - FIMCA Campus Vilhena-RO; Pós-Graduado em Planejamento e Gestão em Saúde (lato sensu); Pós-Graduado em Imunologia e Microbiologia (lato sensu). Atuou como docente na Instituição de Ensino Superior Faculdades Integradas Aparício Carvalho - FIMCA Campus Vilhena-RO, do ano de 2024 até março de 2025. Mestrando em Biologia Celular pelo Programa de Pós-Graduação em Biologia Celular da Universidade Federal de Minas Gerais (UFMG), onde atua no laboratório do Centro de Pesquisa e Desenvolvimento de Fármacos no Grupo de Pesquisa em Arboviroses e Outras Viroses (GPAv)."
+    bio_en: "Bachelor's degree in Nursing from Faculdades Integradas Aparício Carvalho (FIMCA), Vilhena-RO Campus; postgraduate (lato sensu) in Health Planning and Management; postgraduate (lato sensu) in Immunology and Microbiology. He taught at Faculdades Integradas Aparício Carvalho (FIMCA), Vilhena-RO Campus, from 2024 until March 2025. He is currently a master's student in the Graduate Program in Cell Biology at the Federal University of Minas Gerais (UFMG), working at the laboratory of the Drug Research and Development Center in the Arbovirus and Other Viruses Research Group (GPAv)."
+    photo: assets/images/uploads/bruno-bernardes.jpg
+    lattes: http://lattes.cnpq.br/9330538984635150
+  - order: 5
+    name: Arielle Teixeira Silva
+    role: Master Students
+    bio_pt: "Biomédica pela Pontifícia Universidade Católica de Minas Gerais (PUC Minas). Atualmente é mestranda no Programa de Pós-Graduação em Biologia Celular do Instituto de Ciências Biológicas da Universidade Federal de Minas Gerais (ICB/UFMG), sob orientação da Profa. Dra. Vivian Vasconcelos Costa, vinculada ao Laboratório de Imunofarmacologia. Desenvolve pesquisas voltadas à investigação dos mecanismos envolvidos na resolução da inflamação e à avaliação de fármacos e mediadores pró-resolutivos como potenciais estratégias terapêuticas para manifestações associadas às arboviroses, contribuindo também para o desenvolvimento e aprimoramento de modelos experimentais aplicados ao seu estudo. Possui experiência nas áreas de Biologia Molecular, Microbiologia, Virologia e Imunologia, com histórico de atuação em pesquisas relacionadas às arboviroses, viroses respiratórias, epidemiologia e Saúde Pública."
+    bio_en: "Biomedical scientist graduated from the Pontifical Catholic University of Minas Gerais (PUC Minas). She is currently a master's student in the Graduate Program in Cell Biology of the Institute of Biological Sciences, Federal University of Minas Gerais (ICB/UFMG), supervised by Prof. Dr. Vivian Vasconcelos Costa, in the Immunopharmacology Laboratory. Her research investigates the mechanisms involved in the resolution of inflammation and evaluates drugs and pro-resolving mediators as potential therapeutic strategies for manifestations associated with arboviruses, also contributing to the development and improvement of experimental models for their study. She has experience in Molecular Biology, Microbiology, Virology and Immunology, with a background in research on arboviruses, respiratory viruses, epidemiology and Public Health."
+    photo: assets/images/uploads/arielle-teixeira.jpg
+    lattes: https://lattes.cnpq.br/9994803898185896
+  - order: 1
+    name: Igor Guedes Lima
+    role: Undergrad students
+    bio_pt: "Graduando em Ciências Biológicas na Universidade Federal de Minas Gerais, com cursos em Biossegurança e Manejo de Animal de Laboratório."
+    bio_en: "Undergraduate student in Biological Sciences at the Federal University of Minas Gerais, with courses in Biosafety and Laboratory Animal Management."
+    photo: assets/images/uploads/igor-guedes.jpg
+    lattes: http://lattes.cnpq.br/0388276160888702
+  - order: 2
+    name: Leticia Isadora Rodrigues
+    role: Undergrad students
+    bio_pt: "Formada como técnica em informática pela Fundação de Ensino de Contagem (FUNEC). Atualmente cursando Ciências Biológicas, na Universidade Federal de Minas Gerais, e fez iniciação científica no Laboratório de Genética Celular e Molecular (LGCM) da UFMG. Fez um intercâmbio em Biotecnologia no Instituto Politécnico de Leiria."
+    bio_en: "Technical degree in Computer Science from Fundação de Ensino de Contagem (FUNEC). She is currently studying Biological Sciences at the Federal University of Minas Gerais and did a scientific initiation in the Laboratory of Cellular and Molecular Genetics (LGCM) at UFMG. She completed an exchange program in Biotechnology at the Polytechnic Institute of Leiria."
+    photo: assets/images/uploads/leticia-isadora.jpg
+    lattes: https://lattes.cnpq.br/4343172592811521
+  - order: 3
+    name: Maria Luiza Canalis
+    role: Undergrad students
+    bio_pt: "Graduanda em Biomedicina pela UNA Instituição de Ensino, com formação e experiência em pesquisa científica nas áreas de Virologia, Imunologia e Microbiologia. Atua como bolsista de Iniciação Científica no Grupo de Pesquisas em Arboviroses e Outras Viroses do Instituto de Ciências Biológicas da Universidade Federal de Minas Gerais (UFMG), desenvolvendo estudos relacionados à patogênese viral, interação vírus-hospedeiro e resposta imune durante infecções por arbovírus. Possui experiência em cultivo celular, modelos experimentais de infecção viral, modelos animais, titulação viral e técnicas de biologia molecular, imunologia e histologia, RT-qPCR, ELISA, imunofluorescência, imuno-histoquímica e western blotting. Apresenta interesse científico nas áreas de Virologia, Microbiologia e Imunologia, com ênfase no estudo dos mecanismos envolvidos na patogênese das infecções virais e na investigação de novas estratégias terapêuticas para doenças infecciosas."
+    bio_en: "Undergraduate student in Biomedicine at UNA, with training and experience in scientific research in Virology, Immunology and Microbiology. She is a scientific initiation fellow in the Arbovirus and Other Viruses Research Group of the Institute of Biological Sciences, Federal University of Minas Gerais (UFMG), conducting studies on viral pathogenesis, virus-host interaction and the immune response during arbovirus infections. She has experience in cell culture, experimental models of viral infection, animal models, viral titration, and molecular biology, immunology and histology techniques, including RT-qPCR, ELISA, immunofluorescence, immunohistochemistry and western blotting. Her scientific interests are in Virology, Microbiology and Immunology, with emphasis on the mechanisms involved in the pathogenesis of viral infections and on investigating new therapeutic strategies for infectious diseases."
+    photo: assets/images/uploads/maria-canalis.jpg
+    lattes: http://lattes.cnpq.br/5542049615402379
+  - order: 1
+    name: Leticia Soldati Silva
+    role: Technicians
+    bio_pt: "Bacharel em Ciências Biológicas pela Faculdade Pitágoras (2020). Atuou como monitora laboratorial da Escola Municipal Professor Amílcar Martins, na modalidade de estágio complementar (2017/2018). Realizou estágio complementar no departamento de Bioquímica e Imunologia da UFMG no laboratório Idea Real (2019). Neste mesmo período, realizou estágio obrigatório no BHCB da UFMG (2019). Realizou estágio obrigatório no laboratório de Ecologia Vegetal UFMG (2020). Fez parte do projeto Ensaio Clínico Fase III, duplo-cego, randomizado, controlado com placebo para Avaliação de Eficácia e Segurança em profissionais da saúde, da vacina adsorvida COVID-19 (inativada) produzida pela SINOVAC (2020). Trabalhei na produção de kits para diagnósticos de Covid-19 no Centro de Pesquisa e Desenvolvimento de Fármacos pelo departamento de Bioquímica e Imunologia na UFMG, como Bióloga e bolsista (2020 a 2022). Atualmente é técnica de laboratório no Centro de Pesquisa e Desenvolvimento de Fármacos (CPDF) - UFMG, com ênfase em auxílio a projetos sobre teste de fármacos para doenças virais em especial a dengue."
+    bio_en: "Bachelor's degree in Biological Sciences from Faculdade Pitágoras (2020). She worked as a laboratory assistant at Escola Municipal Professor Amílcar Martins, in a complementary internship (2017/2018). She completed a complementary internship in the Department of Biochemistry and Immunology at UFMG, in the Idea Real laboratory (2019), and, in the same period, a mandatory internship at BHCB, UFMG (2019). She completed a mandatory internship in the Plant Ecology Laboratory at UFMG (2020). She took part in the double-blind, randomized, placebo-controlled Phase III clinical trial evaluating the efficacy and safety of the adsorbed COVID-19 (inactivated) vaccine produced by SINOVAC in health professionals (2020). She worked on the production of COVID-19 diagnostic kits at the Drug Research and Development Center, through the Department of Biochemistry and Immunology at UFMG, as a biologist and fellow (2020-2022). She is currently a laboratory technician at the Drug Research and Development Center (CPDF) - UFMG, with emphasis on supporting projects on drug testing for viral diseases, specifically dengue."
+    photo: assets/images/uploads/leticia-soldati.jpg
+    lattes: http://lattes.cnpq.br/3623006901817668

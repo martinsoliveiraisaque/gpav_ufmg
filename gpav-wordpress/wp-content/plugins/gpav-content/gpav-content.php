@@ -53,7 +53,7 @@ add_filter('the_content', function ($content) {
     }
     return $content;
 }, 0);
-function gpav_roles() { return ['Group Leader','Project Manager','Postdocs','PhD students','Master Students','Undergrad students','Former members']; }
+function gpav_roles() { return ['Group Leader','Project Manager','Postdocs','PhD students','Master Students','Undergrad students','Technicians','Former members']; }
 add_action('add_meta_boxes', function () {
     foreach (['page','gpav_news'] as $type) add_meta_box('gpav-language', 'GPAV: idioma e tradução / Language and translation', 'gpav_language_box', $type, 'side');
     add_meta_box('gpav-member', 'GPAV: perfil / Profile', 'gpav_member_box', 'gpav_member', 'normal');

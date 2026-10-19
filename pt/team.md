@@ -8,7 +8,7 @@ lang_switch_label: EN
 permalink: /pt/team/
 ---
 
-{% assign role_order = "Group Leader|Project Manager|Postdocs|PhD students|Master Students|Undergrad students|Former members" | split: "|" %}
+{% assign role_order = "Group Leader|Project Manager|Postdocs|PhD students|Master Students|Undergrad students|Technicians|Former members" | split: "|" %}
 {% assign team_list = site.data.team.members %}
 {% if team_list == nil %}
   {% assign team_list = empty %}
