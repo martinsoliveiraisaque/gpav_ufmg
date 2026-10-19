@@ -1,0 +1,11 @@
+# Membros ocultos por enquanto (não aparecem no site). Para voltar, copie o bloco para team.yml.
+members:
+- order: 1
+  name: Ana Luiza Campos Cruz
+  role: Postdocs
+  bio_pt: 'Graduação (bacharelado) em Bioquímica pela UFSJ. Mestre e doutora em Microbiologia, pela UFMG. Possui experiência com técnicas clássicas de virologia, biologia molecular e modelo animal murino.
+
+    '
+  bio_en: Bachelor's degree in Biochemistry from UFSJ. Master's and PhD in Microbiology from UFMG. Has experience with classical virology techniques, molecular biology, and murine animal models.
+  photo: assets/images/uploads/scientist_model.png
+  lattes: http://lattes.cnpq.br/7814381638362185
